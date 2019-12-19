@@ -1,0 +1,10 @@
+<templateSet group="File Info">
+  <template name="header" value="/**&#10;* @author $user$&#10;* @date $date$ $time$&#10;* @desc&#10;*/" description="文件头部信息" toReformat="true" toShortenFQNames="false">
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="groovyScript(&quot;return String.format('%tH:%&lt;tM', Calendar.instance)&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
