@@ -26,10 +26,15 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Compile">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="CopyElement" />
+  <action id="DatabaseView.CopyTable" />
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Editor Redo">
@@ -52,6 +57,7 @@
   </action>
   <action id="GotoNextError" />
   <action id="GotoPreviousError" />
+  <action id="Graph.ApplyCurrentLayout" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
