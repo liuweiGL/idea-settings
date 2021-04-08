@@ -1,13 +1,15 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="test.java" type="PLAIN_TEXT" />
-      <mapping pattern="LOG_FILE_IS_UNDEFINED" type="PLAIN_TEXT" />
-      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping ext="propertis" type="PLAIN_TEXT" />
-      <mapping ext="jelly" type="XML" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="LOG_FILE_IS_UNDEFINED" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="test.java" type="PLAIN_TEXT" />
+      <mapping ext="propertis" type="PLAIN_TEXT" />
+      <mapping ext="jelly" type="XML" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
   </component>
 </application>
