@@ -9,8 +9,8 @@
     <mask>*.properties</mask>
     <mask>application.yml</mask>
     <mask>*.yml</mask>
-    <mask>pom.xml</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
+    <mask>pom.xml</mask>
   </component>
 </application>
