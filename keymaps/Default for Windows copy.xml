@@ -14,6 +14,7 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.Rename">
@@ -72,7 +73,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="shift ctrl f" />
+    <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
