@@ -30,6 +30,7 @@
   <action id="Compile">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -38,13 +39,16 @@
   <action id="DatabaseView.CopyTable" />
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
-  <action id="EditorDuplicate" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="ExpressionTypeInfo" />
